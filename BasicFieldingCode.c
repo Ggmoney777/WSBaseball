@@ -16,7 +16,9 @@ key_data = key_press_check();
                 x++;
             }else if (KEY_DOWN1){
                 y--;
-            }else if (KEY_UP1)
+            }else if (KEY_UP1){
+                y++;
+            }
         }
         sprite_set_location(0, x, y);
 	}
